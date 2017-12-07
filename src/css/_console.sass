@@ -1,0 +1,61 @@
+.wrap-console
+  background-color: $bg
+  border-radius: 5px
+  max-height: 250px
+  overflow: scroll
+  code
+    color: $txt
+    background-color: $bg
+    font-size: 75%
+    @media (max-width: 400px)
+      font-size: 65%
+    @media (min-width: 767px)
+      font-size: 90%
+    .o-tab
+      padding-left: 2em
+    .t-tab
+      padding-left: 4em
+    .th-tab
+      padding-left: 6em
+    .classe
+      color: $class
+    .className
+      color: $className
+    .return
+      color: $return
+    .functionName
+      color: $fct
+    .self
+      color: $self
+    .def
+      color: $def
+    .str
+      color: $str
+    .comment
+      color: $comment
+.wrap-button
+  @media (min-width: 1024px)
+    padding-top: 90px
+  button
+    width: 100%
+    margin: 15px 10px 15px 0
+    border-radius: 0px
+    border: none
+    padding: 10px 0
+    background-color: #82e0d9
+    font-size: 15px
+    font-weight: bold
+.wrap-shell
+  background-color: $bg
+  border-radius: 5px
+  min-height: 175px
+  @media (min-width: 768px)
+    min-height: 250px
+  code
+    background-color: $bg
+    color: #f5f5f5
+    p
+      margin: 0
+      padding-left: 1em
+      .shell-result
+        padding-left: 0
