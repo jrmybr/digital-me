@@ -2,7 +2,7 @@
   <nav>
     <div class="col-xs-12 wrap-avatar text-center">
       <div class="c-avatar u-super">
-          <img class="c-avatar__img" src="/img/me_square.jpg">
+          <img class="c-avatar__img" :src="my_face">
       </div>
     </div>
     <div id="menu" class="col-xs-12 col-md-offset-2 col-md-10">
@@ -24,6 +24,7 @@
   export default{
     data(){
       return {
+        my_face: "./src/img/me_square.jpg",
         links: ['A propos', 'Expériences', 'Formation',
         'Hard skills','Soft skills', 'Contact']
       }

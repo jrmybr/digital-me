@@ -12,7 +12,7 @@
         <slot><hard-skills></hard-skills></slot>
       </banner>
       <toolbox></toolbox>
-      <slide-show></slide-show>
+      <app-footer></app-footer>
   </div>
 
 </template>
@@ -26,7 +26,8 @@ import Tab from "./components/tab.vue"
 import Formation from "./components/formation.vue"
 import HardSkills from "./components/hard_skills.vue"
 import Toolbox from "./components/toolbox.vue"
-import SlideShow from "./components/slideshow.vue"
+import Footer from "./components/footer.vue"
+
 export default {
   data () {
     return {
@@ -50,7 +51,7 @@ export default {
     'formation': Formation,
     'hard-skills': HardSkills,
     'toolbox': Toolbox,
-    'slide-show': SlideShow
+    'app-footer': Footer
   }
 }
 </script>
