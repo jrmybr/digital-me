@@ -52,7 +52,7 @@ header
     min-height: 75%
 div.me
   min-height: 330px
-  background: url('./../dist/img/me_square.jpg')
+  background: url('./../img/me_square.jpg')
   background-position: center center
   background-repeat: no-repeat
   background-size: cover
