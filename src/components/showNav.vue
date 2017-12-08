@@ -2,13 +2,13 @@
   <nav>
     <div class="col-xs-12 wrap-avatar text-center">
       <div class="c-avatar u-super">
-          <img class="c-avatar__img" src="./../img/me_square.jpg">
+          <img class="c-avatar__img" src="/img/me_square.jpg">
       </div>
     </div>
     <div id="menu" class="col-xs-12 col-md-offset-2 col-md-10">
       <div class="wrap-link col-xs-6 col-md-2 col-lg-2 " v-for="link of links">
         <div class=" text-center">
-          <a :href="link">{{ link | upperCase}}</a> 
+          <a :href="link">{{ link | upperCase}}</a>
         </div>
       </div>
     </div>
