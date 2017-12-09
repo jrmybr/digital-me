@@ -1,6 +1,6 @@
 <template>
   <header id="A%20propos">
-    <div class="me col-xs-4"></div>
+    <div class="me col-xs-4" :style="image"></div>
     <show-more class="col-sm-8" :title="title" :content="subtitle | upperCase">
       <slot>
         <p>
@@ -29,7 +29,13 @@
     data(){
       return {
         title: 'Jérémy BAER',
-        subtitle: 'Ingénieur étude et développement'
+        subtitle: 'Ingénieur étude et développement',
+        image: {
+          'background': "url('./src/img/me_square.jpg')",
+          'background-position': 'center center',
+          'background-repeat': 'no-repeat',
+          'background-size': 'cover',
+        }
       }
     },
     filters:{
@@ -48,14 +54,9 @@
 header
   @media (min-width: 767px)
     margin-top: 10%
-    //position: absolute
     min-height: 75%
 div.me
   min-height: 330px
-  background: url('./../img/me_square.jpg')
-  background-position: center center
-  background-repeat: no-repeat
-  background-size: cover
   padding-left: 0px
   padding-right: 0px
   @media (max-width: 767px)
