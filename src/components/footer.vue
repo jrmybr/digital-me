@@ -37,7 +37,7 @@
       </div>
       <div class="col-xs-12 created">
         <div class="col-xs-6 text-left">
-          Made by <span class="fa fa-heart"></span> et <span class="fa fa-coffee"></span> by Jérémy BAER
+          Made by <span class="fa fa-heart"></span> and <span class="fa fa-coffee"></span> by Jérémy BAER
         </div>
         <div class="col-xs-6 text-right">
           Updated on 08-12-2017

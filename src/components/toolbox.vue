@@ -25,11 +25,11 @@ import showMore from "./global/showMore.vue"
       return {
         title: "Toolbox",
         groups:{
-          'POO': [{name:'C++',stars:4}, {name:'Java',stars:3}, {name:'Python 3',stars:5}],
-          'NI': [{name:'LabView',stars:5}, {name:'LabWindows',stars:3}, {name:'Teststand',stars:2}],
+          'POO': [{name:'C++',stars:4}, {name:'Java',stars:3}, {name:'Python 3',stars:4}],
+          'NI': [{name:'LabView',stars:4}, {name:'LabWindows',stars:3}, {name:'Teststand',stars:2}],
           'Scientifique': [{name:'Matlab',stars:4}, {name:'Numpy',stars:3}, {name:'Pandas',stars:4}, {name:'MatplotLib',stars:3}],
           'Web back-end': [{name:'Django',stars:4}, {name:'PostgreSQL',stars:3}, {name:'MongoDB',stars:3}],
-          'Web Front-end': [{name:'HTML5/CSS3',stars:4},{name:'JavaScript',stars:3},{name:'Vue.js',stars:4}, {name:'RiotJs',stars:3}],
+          'Web Front-end': [{name:'HTML5/CSS3',stars:4},{name:'JavaScript',stars:4},{name:'Vue.js',stars:4}, {name:'RiotJs',stars:3}],
           'En vrac': [{name:'Spark',stars:2},{name:'scikit-learn',stars:3}, {name:'D3.js',stars:3}, {name:'Sass',stars:4}]
         }
       }

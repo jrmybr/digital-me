@@ -6,16 +6,13 @@
     </div>
     <div class="wrap-show-more-details">
       <div class="wrap-details">
-        <div class="hide-content"></div> <!---->
-        <!-- <div v-html="details" class="details text-justify">
-
-        </div> -->
+        <div class="hide-content"></div>
         <div class="details text-justify">
           <slot></slot>
         </div>
       </div>
-      <div @click="displayDetails" class="show-more text-center">
-        <span class="fa fa-chevron-down down"></span>
+      <div @click="displayDetails" class="show-more text-center fa fa-chevron-down down">
+        <!-- <span class="fa fa-chevron-down down"></span> -->
       </div>
     </div>
   </div>
@@ -32,23 +29,20 @@
       content:{
         type: String,
         required: false
-      },
-      // details:{
-      //   type: String,
-      //   required: false
-      // }
+      }
     },
     data(){
       return {
       }
     },
     methods:{
-      displayDetails(){
-        $('.wrap-details').toggleClass('show')
-        $('.hide-content').toggleClass('show')
-        $('.details').toggleClass('show')
-        $('span.down').toggleClass('fa-chevron-down')
-        $('span.down').toggleClass('fa-chevron-up')
+      displayDetails(event){
+        const parent = $(event.target).parent('.wrap-show-more-details')
+        parent.find('.wrap-details').toggleClass('show')
+        parent.find('.hide-content').toggleClass('show')
+        parent.find('.details').toggleClass('show')
+        parent.find('.down').toggleClass('fa-chevron-down')
+        parent.find('.down').toggleClass('fa-chevron-up')
       }
     }
   }
@@ -96,6 +90,7 @@ h1.title
   border-bottom: 1px solid $green
   color: $green
   padding-bottom: 10px
+  width: 100%
   @media (min-width: 767px)
     display: none
 </style>

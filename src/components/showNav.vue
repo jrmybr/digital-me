@@ -8,7 +8,7 @@
     <div id="menu" class="col-xs-12 col-md-offset-2 col-md-10">
       <div class="wrap-link col-xs-6 col-md-2 col-lg-2 " v-for="link of links">
         <div class=" text-center">
-          <a :href="link">{{ link | upperCase}}</a>
+          <a :href="link.link">{{ link.text | upperCase}}</a>
         </div>
       </div>
     </div>
@@ -25,8 +25,13 @@
     data(){
       return {
         my_face: "./src/img/me_square.jpg",
-        links: ['A propos', 'Expériences', 'Formation',
-        'Hard skills','Soft skills', 'Contact']
+        links: [{text:'SOFT SKILLS',link:'#soft-skills-banner'},
+        {text:'EXPÉRIENCES',link:'#experience-show'},
+        {text:'POO SKILLS',link:'#prog-skills-banner'},
+        {text:'FORMATIONS',link:'#formation-show'},
+        {text:'HARD SKILLS',link:'#hard-skills-banner'},
+        {text:'TOOLBOX',link:'#toolbox-show'}
+      ]
       }
     },
     filters:{

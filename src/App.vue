@@ -3,16 +3,16 @@
       <app-nav></app-nav>
       <app-header></app-header>
       <banner id="soft-skills-banner" :title="bannerTilteSk" :content="bannerContentSK"></banner>
-      <exp></exp>
+      <exp id="experience-show"></exp>
       <banner id="prog-skills-banner" :title="bannerTitlePS">
         <slot><tab-board :tabTitle="tabTitle"></tab-board></slot>
       </banner>
-      <formation></formation>
+      <formation id="formation-show"></formation>
       <banner id="hard-skills-banner" :title="bannerTilteHS">
         <slot><hard-skills></hard-skills></slot>
       </banner>
-      <toolbox></toolbox>
-      <app-footer></app-footer>
+      <toolbox id="toolbox-show"></toolbox>
+      <app-footer id="contact"></app-footer>
   </div>
 
 </template>
@@ -57,10 +57,15 @@ export default {
 </script>
 
 <style lang="sass">
+@import './src/css/couleurs'
 #app
   font-family: 'Avenir', Helvetica, Arial, sans-serif
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   min-height: 100%
-
+#contact
+  background-color: $green
+  margin-top: 50px
+  @media (min-width: 600px)
+    margin-top: 150px
 </style>
