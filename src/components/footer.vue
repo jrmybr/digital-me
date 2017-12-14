@@ -17,21 +17,22 @@
         </div>
         <div class="content-column">
           <ul>
-            <li><span class="fa fa-mobile"> </span>{{ tel }}</li>
-            <li><span class="fa fa-envelope"> </span> <a :href="mailto()">{{ mail }}</a></li>
-            <li><span class="fa fa-linkedin-square"> </span> <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-baer-19480786/" target="_blank">Voir mon profil</a> </li>
+            <li><span class="fa fa-mobile"> </span> {{ tel }}</li>
+            <li><span class="fa fa-envelope"> </span> <a :href="mailto()"> {{ mail }}</a></li>
+            <li><span class="fa fa-linkedin-square"> </span> <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-baer-19480786/" target="_blank"> Voir mon profil</a> </li>
           </ul>
         </div>
       </div>
       <div class="footer-column col-sm-4 col-xs-12">
         <div class="header-column text-center">
-          Powered By
+          Build With
         </div>
-        <div class="content-column">
+        <div class="content-column text-center">
           <ul>
-            <li><span class="fa fa-html5 fa-2x"> </span>HTML 5</li>
-            <li><span class="fa fa-css3 fa-2x"> </span> CSS 3</li>
-            <li><span class="fa fa-2x"> </span>JavaScript</li>
+            <li>Web components with Vue.Js </li>
+            <li>Selectors with some JQuery</li>
+            <li>Basics with HTML 5</li>
+            <li>Style with Sass</li>
           </ul>
         </div>
       </div>

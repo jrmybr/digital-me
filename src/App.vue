@@ -33,9 +33,18 @@ export default {
     return {
       bannerTilteSk: 'Soft Skills',
       bannerContentSK: {
-        Curiosité: "Que ce soit dans mon domaine de compétence ou non, j'aime apprendre de nouvelles techniques ou technologie. C\'est d'abord par curiosité puis persevérance que j\'ai appris les techniques de développement web. Aujourd'hui, j'utilise ces compétences acquises de manières autodidacte pour me présenter au travers de cette page internet",
-        Initiative: "Au moment de maintenir ou mettre à jour le code des bancs de test sur lesquels j\'ai travaillé, de nouvelles fonctionnalités me sont arrivées en tête. Dans le but d\'améliorer l\'expérience utilisateur, j\'ai pris l'initiative de les développer. Ces initiatives ont été appréciées par les utilisateurs au moment de leur présentation",
-        Adaptabilité: "Habitué à travailler dans de petites équipes, et avec du matériels restraint, je suis capable d'adapter mon travail en faveur d\'un objectif. Par exemple, suite au déménagement de nos laboratoires de mesure, la température ambiante n'était plus maitrisé. A la demande d\'un responsable, j\'ai eu à utiliser le matériel immédiatemment disponible pour développer un système de régularisation de température"
+        Curiosité: "Que ce soit dans mon domaine de compétence ou non, j'aime apprendre de nouvelles techniques ou technologies.\
+         C\'est d'abord par curiosité, puis persevérance, que j\'ai appris les techniques de développement web Back et Front end. \
+         Aujourd'hui, j'utilise ces compétences acquises de manières autodidacte pour me présenter au travers de cette page internet",
+
+        Initiative: "Je n\'ai pas peur de prendre des initiatives si je suis convaincu qu\'elles peuvent être bénéfique au projet.\
+        J\'ai souvent mis en oeuvre cette philosophie pour ajouter de nouvelles fonctionnalités sur les bancs sur lesquels j'ai travaillé. \
+        Toujours dans le but d\'améliorer l\'expérience utilisateur, mes initiatives ont toujours été apprécié des utilisateurs",
+
+        Adaptabilité: "Habitué à travailler dans de petites équipes, et avec du matériel limité, je suis capable d'adapter \
+         mon travail en faveur d\'un objectif. Par exemple, suite au déménagement de nos laboratoires de mesure,\
+          la température ambiante n'étant plus maitrisé, j\'ai eu à utiliser le matériel \
+          immédiatemment disponible pour développer un système de régularisation de température"
       },
       tabTitle: ['C++', 'Python', 'Java'],
       bannerTitlePS: "Prog Skills",

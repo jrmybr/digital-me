@@ -6,16 +6,17 @@
         <p>
         Curieux de nature, je me suis toujours intéressé à la physique.
         Ce qui m'a mené à poursuivre des études dans les mesures physiques. Cette formation
-        m'a permis d'apprendre et comprendre plusieurs domaine tel que la thermodynamique, la mécanique,
+        m'a permis d'apprendre et comprendre plusieurs domaines tels que la thermodynamique, la mécanique,
         la chimie et l'éléctronique dans l'objectif de développer des systèmes de mesures.
         </p>
         <p>
         Ensuite spécialisé dans le domaine de l'électronique et les systèmes de mesures, mes expériences
-        professionnelles ont fait de mon profil plus orienté à la partie software. En effet, j'ai eu
-        à interfacer plusieurs IHM pour l'intégration d'instrument de mesure.
+        professionnelles ont fait que mon profil soit plus orienté vers la partie software. En effet, j'ai eu
+        à interfacer plusieurs IHM pour l'intégration d'instrument de mesure avec LabView. Maintenir et Mettre à
+        jour des bancs d'acquisitions sous C++. Traiter des données avec Python.
         </p>
         <p>
-        Ayant un goût prononcé pour la programmation, je me suis intéressé puis passionné par le développement
+        Ayant un goût prononcé pour la programmation, je me suis intéressé, puis passionné, par le développement
         web et la science des données.
         </p>
       </slot>

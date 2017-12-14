@@ -24,7 +24,7 @@ export default {
             poste: "Master EEA"
           },
           details:['Master Electronique Electrotechnique et Automatique',
-            'Avec mes précédentes formations et une spécialisation dans le domaine des capteurs et des systèmes associés, je suis capable d\'appréhender une problématique de mesures et y apporter une solution technique',
+            'Mes précédentes formations et ma spécialisation dans le domaine des capteurs et des systèmes associés, je suis capable d\'appréhender une problématique de mesures et y apporter une solution technique',
             'J\'y ai également acquit une capacité de réflexion et de compréhension me permettant de comprendre de nouvelles technologies'
           ]
         },
@@ -45,7 +45,7 @@ export default {
             entreprise: 'IUT Metz',
             poste: "DUT Mesures Physiques"
           },
-          details:['Le DUT Mesures Physiques m\'a apporté des connaissances théoriques dans les domaines de la physique-chimie. Connaissance indispensable pour appréhender des systèmes de mesures',
+          details:['Le DUT Mesures Physiques m\'a apporté des connaissances théoriques dans les domaines de la physique-chimie. Connaissances indispensable pour appréhender des systèmes de mesures',
           ]
         },
         {
