@@ -12,6 +12,9 @@
         <slot><hard-skills></hard-skills></slot>
       </banner>
       <toolbox id="toolbox-show"></toolbox>
+      <banner id="interest-banner" :title='bannerTitleInt'>
+        <slot><interest></interest></slot>
+      </banner>
       <app-footer id="contact"></app-footer>
   </div>
 
@@ -26,6 +29,7 @@ import Tab from "./components/tab.vue"
 import Formation from "./components/formation.vue"
 import HardSkills from "./components/hard_skills.vue"
 import Toolbox from "./components/toolbox.vue"
+import Interest from "./components/interest.vue"
 import Footer from "./components/footer.vue"
 
 export default {
@@ -49,6 +53,7 @@ export default {
       tabTitle: ['C++', 'Python', 'Java'],
       bannerTitlePS: "Prog Skills",
       bannerTilteHS: "Hard Skills",
+      bannerTitleInt: "Centre d\'intérêt"
     }
   },
   components: {
@@ -60,6 +65,7 @@ export default {
     'formation': Formation,
     'hard-skills': HardSkills,
     'toolbox': Toolbox,
+    'interest': Interest,
     'app-footer': Footer
   }
 }
