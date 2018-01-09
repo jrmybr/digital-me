@@ -41,7 +41,7 @@
           Made by <span class="fa fa-heart"></span> and <span class="fa fa-coffee"></span> by Jérémy BAER
         </div>
         <div class="col-xs-6 text-right">
-          Updated on 08-12-2017
+          Updated on 09/11/2018
         </div>
       </div>
     </div>
@@ -61,7 +61,7 @@ export default {
         '31650 Saint-Orens-De-Gameville',
       ],
       tel: '06 48 16 64 59',
-      mail: 'baer.jeremy@orange.fr'
+      mail: 'to.baer.jeremy@gmail.com'
     }
   },
   methods:{
