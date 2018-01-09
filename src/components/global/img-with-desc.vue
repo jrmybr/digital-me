@@ -1,6 +1,5 @@
 <template>
-  <div class="image-with-desc">
-    <img :src="image" :alt="alt_text" class="img-responsive">
+  <div :style="image" class="image-with-desc">
     <div class="content">
       <p>{{ desc }}</p>
     </div>
@@ -11,7 +10,7 @@
 export default{
   props:{
     image:{
-      type: String,
+      type: Object,
       required: true
     },
     alt_text:{
@@ -27,8 +26,9 @@ export default{
 </script>
 
 <style scoped lang="sass">
-img
+.image-with-desc
   margin-top: 10px
+  min-height: 300px
 .content
   position: absolute
   bottom: 0

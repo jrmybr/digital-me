@@ -24,14 +24,18 @@ export default{
     return {
       images: [
         {
-          dir: './../../src/img/loisirs/crossfit.jpg',
+          dir: {'background': "url('./src/img/loisirs/crossfit.jpg')",
+        'background-position': 'center center',
+        'background-size': 'cover'},
           alt: 'CrossFit',
           des: 'Passionné par le CrossFit depuis plus de 3 ans, si je le pratique\
           surtout en tant que loisir, je participe régulièrement à des compétitions\
           individuelles ou en équipes'
         },
         {
-          dir: './../../src/img/loisirs/weightlifting.jpg',
+          dir: {'background': "url('./src/img/loisirs/weightlifting.jpg')",
+        'background-position': 'center center',
+        'background-size': 'cover'},
           alt: 'Halterophilie',
           des: 'L\'haltérophilie est une composante du CrossFit, c\'est ainsi que \
           j\'ai débuté sa pratique. C\'est un discipline qui recquiere de la confiance \
@@ -39,7 +43,9 @@ export default{
           de concourir dans la catégorie inter-regionale'
         },
         {
-          dir: './../src/img/loisirs/dev.jpeg',
+          dir: {'background': "url('./src/img/loisirs/dev.jpeg')",
+        'background-position': 'center center',
+        'background-size': 'cover'},
           alt: 'Dev. Web',
           des: 'Je me suis intéressé au développement web dans le but de coder une application\
           en rapport avec ma pratique sportive. Depuis que j\'ai posé un pied dans cet univers\
