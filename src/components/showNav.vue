@@ -1,8 +1,8 @@
 <template>
   <nav>
     <div class="col-xs-12 wrap-avatar text-center">
-      <div class="c-avatar u-super">
-          <img class="c-avatar__img" :src="my_face">
+      <div class="u-super">
+          <img class="c-avatar" :src="my_face">
       </div>
     </div>
     <div id="menu" class="col-xs-12 col-md-offset-2 col-md-10">
@@ -56,15 +56,20 @@ nav
   min-height: 150px
   background-color: $l_green
   @media (min-width: 768px)
-    //display: none
     min-height: 30px
   .wrap-avatar
     padding:
       top: 15px
       bottom: 15px
     background-color: $green
+    display: flex
+    justify-content: center
     @media (min-width: 768px)
       display: none
+    .c-avatar
+      max-width: 100px
+      border-radius: 50%
+      border: 3px solid $white
 
 .disp-menu
   z-index: 999

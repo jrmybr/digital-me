@@ -28,9 +28,9 @@ import showMore from "./global/showMore.vue"
           'POO': [{name:'C++',stars:4}, {name:'Java',stars:3}, {name:'Python 3',stars:4}],
           'NI': [{name:'LabView',stars:4}, {name:'LabWindows',stars:3}, {name:'Teststand',stars:2}],
           'Scientifique': [{name:'Matlab',stars:4}, {name:'Numpy',stars:3}, {name:'Pandas',stars:4}, {name:'MatplotLib',stars:3}],
-          'Web back-end': [{name:'Django',stars:4}, {name:'PostgreSQL',stars:3}, {name:'MongoDB',stars:3}],
-          'Web Front-end': [{name:'HTML5/CSS3',stars:4},{name:'JavaScript',stars:4},{name:'Vue.js',stars:4}, {name:'RiotJs',stars:3}],
-          'En vrac': [{name:'Spark',stars:2},{name:'scikit-learn',stars:3}, {name:'D3.js',stars:3}, {name:'Sass',stars:4}]
+          'Web back-end': [{name:'Django',stars:3}, {name:'PostgreSQL',stars:3}, {name:'Firebase',stars:3}],
+          'Web Front-end': [{name:'HTML5/CSS3',stars:4},{name:'JavaScript',stars:4},{name:'Vue.js',stars:4}, {name:'ReactJs',stars:3}],
+          'En vrac': [{name:'Git',stars:3},{name:'Linux',stars:3}, {name:'D3.js',stars:3}, {name:'Trello',stars:4}]
         }
       }
     },

@@ -18,8 +18,8 @@
         <div class="content-column">
           <ul>
             <li><span class="fa fa-mobile"> </span> {{ tel }}</li>
-            <li><span class="fa fa-envelope"> </span> <a :href="mailto()"> {{ mail }}</a></li>
-            <li><span class="fa fa-linkedin-square"> </span> <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-baer-19480786/" target="_blank"> Voir mon profil</a> </li>
+            <li><span class="fa fa-envelope"> </span> <a href="mailto:tobaerjeremy@gmail.com">Mail</a></li>
+            <li><span class="fa fa-linkedin-square"> </span> <a href="https://www.linkedin.com/in/jrmybr/" target="_blank"> Voir mon profil</a> </li>
           </ul>
         </div>
       </div>
@@ -38,10 +38,10 @@
       </div>
       <div class="col-xs-12 created">
         <div class="col-xs-6 text-left">
-          Made by <span class="fa fa-heart"></span> and <span class="fa fa-coffee"></span> by Jérémy BAER
+          Made with too much <span class="fa fa-coffee"></span> by Jérémy BAER
         </div>
         <div class="col-xs-6 text-right">
-          Updated on 09/11/2018
+          Updated on 21/02/2018
         </div>
       </div>
     </div>
